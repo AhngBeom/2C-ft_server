@@ -3,10 +3,10 @@
 ## How to
 
 ```bash
+# 1
 docker build . -t ft_server
-```
 
-```bash
+# 2
 docker run -it --name ft_server -p 80:80 -p 443:443 ft_server
 ```
 
